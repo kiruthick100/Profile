@@ -6,15 +6,17 @@ import MyPhoto from "./image/MyImage.jpg";
 const Profile = () => {
   return (
     <>
-      <div className="Top-Alain"></div>
+      <div className="Top-Alain">
+      <span className="Header-Body">Welcome Sir</span>
+      </div>
       <div className="Total">
         <div className="Name">
           Hello I Am!<br></br>
-          <div style={{ marginTop: "10px", marginLeft: "80px" }}>
+          <div className="Name-classStyle">
             Kiruthick Kumar Kannan
           </div>
           <div
-            style={{ marginTop: "10px", marginLeft: "80px" }}
+            
             className="Developer"
           >
             FullStack Developer{" "}
@@ -27,7 +29,7 @@ const Profile = () => {
             my work and to enhance the growth of the organization by imporving
             and applying my competency at work
           </div>
-          <div className="My-Image">
+          <div className="Image">
             <img className="Image" src={MyPhoto} alt="My Photo" />
           </div>
         </div>
@@ -35,7 +37,8 @@ const Profile = () => {
       <div  style={{position:"relative"}}className="Education-SkillsSet">
         <div className="Education" style={{ position: "absolute" }}>
           <div className="Education2">
-            Education
+          <span style={{display:"flex",justifyContent:"center",fontWeight:"bolder"}}>Education</span>
+
             <div className="degree">
               Bachelor of Computer Science and Engineering<br></br>
               <h5 className="degreeName">
@@ -93,8 +96,10 @@ const Profile = () => {
           </div>
         </div>
       </div>
+      <div className="Smalestyle">
      <Project/>
      <Contact/>
+     </div>
     </>
   );
 };
