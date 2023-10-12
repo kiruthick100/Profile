@@ -15,101 +15,139 @@ const Project =()=>
         <div className="Project-details">
         <span style={{fontWeight:"bold"}}>Project Details</span>
             <div className="Details">
+                <div className="Detail2">
             <div className="Project-Image">
                 <img src={Eletricty}  className="Image-h" style={{height:"150px",weight:"150px"}}></img>
                 <div className="Check">
                    Language:<br></br>
-                   <span style={{marginBottom:"30px"}}>HTML </span><br></br>
-                   <span  style={{marginBottom:"30px"}}>Flask
+                   <span style={{marginBottom:"30px",marginLeft:"30px"}}>HTML </span><br></br>
+                   <span  style={{marginBottom:"30px",marginLeft:"30px"}}>Flask
                    </span><br></br>
+                   <a style={{color:"Pink",marginLeft:"30px"}}href ="https://github.com/kiruthick100/electricityBill">view Code</a>
+
                     </div>
                
             </div>
-                Electricty Bill Calulator
+            </div>
+            <span style={{display:"flex",justifyContent:"center"}}> Electricty Bill Calulator</span>
+               
 
             </div>
             <div className="Details">
+            <div className="Detail2">
+
             <div className="Project-Image">
                 <img src={Workers}  className="Image-h"style={{height:"130px",weight:"100px"}}></img>
                 <div className="Check">
                    Language:<br></br>
-                   <span style={{marginBottom:"30px"}}>HTML </span><br></br>
-                   <span  style={{marginBottom:"30px"}}>Flask
+                   <span style={{marginBottom:"30px",marginLeft:"30px"}}>HTML </span><br></br>
+                   <span  style={{marginBottom:"30px",marginLeft:"30px"}}>Flask
                    </span><br></br>
+                   <a style={{color:"Pink",marginLeft:"30px"}}href ="https://github.com/kiruthick100/RemoteWorkers">view Code</a>
+
+                    </div>
                     </div>
                
             </div>
-                Mobile Aritican
+            <span style={{display:"flex",justifyContent:"center"}}>Mobile Aritican</span>
+                
             </div>
             <div className="Details">
+            <div className="Detail2">
+
             <div className="Project-Image">
                 <img src={Stone}  className="Image-h" style={{height:"150px",weight:"150px"}}></img>
                 <div className="Check">
                    Language:<br></br>
-                   <span style={{marginBottom:"30px"}}>HTML </span><br></br>
-                   <span  style={{marginBottom:"30px"}}>JavaScript
+                   <span style={{marginBottom:"30px",marginLeft:"30px"}}>HTML </span><br></br>
+                   <span  style={{marginBottom:"30px",marginLeft:"30px"}}>JavaScript
+
                    </span><br></br>
+                   <a style={{color:"Pink",marginLeft:"30px"}}href ="https://github.com/kiruthick100/stone-paper-game">view Code</a>
+
                     </div>
-               
+               </div>
             </div>
-                Stone Paper 
+            <span style={{display:"flex",justifyContent:"center"}}>  Stone Paper </span>
+              
             </div>
             <div className="Details">
+            <div className="Detail2">
+
             <div className="Project-Image">
                 <img src={Snake}  className="Image-h" style={{height:"150px",weight:"150px"}}></img>
                 <div className="Check">
                    Language:<br></br>
-                   <span style={{marginBottom:"30px"}}>HTML </span><br></br>
-                   <span  style={{marginBottom:"30px"}}>JavaScript
+                   <div style={{}}>
+                   <span style={{marginLeft:"30px",marginTop:"40px"}}>HTML </span><br></br>
+                   <span  style={{marginBottom:"30px",marginLeft:"30px"}}>JavaScript
                    </span><br></br>
+
+                   <a style={{color:"Pink",marginLeft:"30px"}}href ="https://github.com/kiruthick100/snake--game">view Code</a>
+                   </div>
                     </div>
-               
+               </div>
             </div>
-                Snake-Game
+            <span style={{display:"flex",justifyContent:"center"}}>Snake-Game</span>
+                
             </div>
             <div className="Details">
+            <div className="Detail2">
+
             <div className="Project-Image">
                 <img src={Chat}  className="Image-h" style={{height:"150px",weight:"150px"}}></img>
                 <div className="Check" style={{image:{Chat}}}>
                    Language:<br></br>
-                   <span style={{marginBottom:"30px"}}>React Js </span><br></br>
-                   <span>FireBase</span>
+                   
+                   <span style={{marginBottom:"30px",marginLeft:"30px"}}>React Js </span><br></br>
+                   <span style={{marginBottom:"30px",marginLeft:"30px"}}>FireBase</span><br></br>
+                   <a style={{color:"Pink",marginLeft:"30px"}}href ="https://github.com/kiruthick100/chat-application">view Code</a>
+
                 </div>
-               
+               </div>
             </div>
-                Chat-Application
+            <span style={{display:"flex",justifyContent:"center"}}>Chat-Application</span>
+                
             </div>
             <div className="Details">
+            <div className="Detail2">
+
             <div className="Project-Image">
                 <img src={Flight}  className="Image-h" style={{height:"200px",weight:"200px"}}></img>
                 <div className="Check">
                    Language:<br></br>
-                   <span style={{marginBottom:"30px"}}>React Js </span><br></br>
-                   <span  style={{marginBottom:"30px"}}>Node Js
+                   <span style={{marginBottom:"30px",marginLeft:"30px"}}>React Js </span><br></br>
+                   <span  style={{marginBottom:"30px",marginLeft:"30px"}}>Node Js
                    </span><br></br>
-                   <span  style={{marginBottom:"30px"}}>Express Js</span><br></br>
-                   <span  style={{marginBottom:"30px"}}>Mongo DB</span>
+                   <span  style={{marginBottom:"30px",marginLeft:"30px"}}>Express Js</span><br></br>
+                   <span  style={{marginBottom:"30px",marginLeft:"30px"}}>Mongo DB</span><br></br>
+                   <a style={{color:"Pink",marginLeft:"30px"}}href ="https://github.com/kiruthick100/flight">view Code</a>
+
                 </div>
-               
+               </div>
             </div>
             <div style={{display:"flex",alignItems:"flex-end"}}>
-                Flight-Ticket-Booking
+                <span style={{display:"flex",justifyContent:"center"}}>Flight-Ticket-Booking</span>
                 </div>
             </div>
             <div className="Details">
+                '                <div className="Detail2">
+
             <div className="Project-Image">
                 <img src={Ecommerce}  className="Image-h" style={{height:"100px",width:"150px"}}></img>
                 <div className="Check">
                    Language:<br></br>
-                   <span style={{marginBottom:"30px"}}>React Js </span><br></br>
-                   <span  style={{marginBottom:"30px"}}>Node Js
+                   <span style={{marginBottom:"30px",marginLeft:"30px"}}>React Js </span><br></br>
+                   <span  style={{marginBottom:"30px",marginLeft:"30px"}}>Node Js
                    </span><br></br>
-                   <span  style={{marginBottom:"30px"}}>Express Js</span><br></br>
-                   <span  style={{marginBottom:"30px"}}>Mongo DB</span>
+                   <span  style={{marginBottom:"30px",marginLeft:"30px"}}>Express Js</span><br></br>
+                   <span  style={{marginBottom:"30px",marginLeft:"30px"}}>Mongo DB</span><br></br>
+                   <a style={{color:"Pink",marginLeft:"30px"}}href ="https://github.com/kiruthick100/flight">view Code</a>
+
                 </div>
-               
+               </div>
             </div>
-                E-commerce
+                <span style={{display:"flex",justifyContent:"center"}}>E-commerce</span>
             </div>
         </div>
         </>

@@ -1,3 +1,4 @@
+import Contact from "../Contact";
 import Project from "./Project";
 import "./css/Profile.css";
 import MyPhoto from "./image/MyImage.jpg";
@@ -82,6 +83,7 @@ const Profile = () => {
         </div>
       </div>
      <Project/>
+     <Contact/>
     </>
   );
 };
