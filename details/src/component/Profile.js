@@ -62,22 +62,33 @@ const Profile = () => {
           <div>
             <div className="Skills">
               Skills
+              <ul>
               <div className="SkillSet">
-                Html
+                <li>
+                Html</li>
                 <br></br>
-                css
+                <li>
+                css</li>
+                <br></br><li>
+                JavaScript</li>
                 <br></br>
-                JavaScript
+                <li>
+                MERN Stack</li>
                 <br></br>
-                MERN Stack
+                <li>
+                Flask</li>
                 <br></br>
-                Flask
+                <li>
+                FireBase</li>
                 <br></br>
-                FireBase
-                <br></br>
-                Java<br></br>
+                <li>
+                Java
+                </li><br></br>
+                <li>
                 C
+                </li>
               </div>
+              </ul>
             </div>
           </div>
         </div>

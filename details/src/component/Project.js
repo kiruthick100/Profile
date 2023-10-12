@@ -11,10 +11,14 @@ const Project =()=>
 {
     return(
         <>
-       
+
+<div className="Title-Project" style={{display:"flex",position:"relative",marginTop:"400px",justifyContent:"center"}}>
+                        <span style={{fontWeight:"bold",display:"flex",justifyContent:"center"}}>Project Details</span><br></br>
+                        </div>
         <div className="Project-details">
-        <span style={{fontWeight:"bold"}}>Project Details</span>
+       
             <div className="Details">
+               
                 <div className="Detail2">
             <div className="Project-Image">
                 <img src={Eletricty}  className="Image-h" style={{height:"150px",weight:"150px"}}></img>
