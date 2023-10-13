@@ -6,7 +6,7 @@ import MyPhoto from "./image/MyImage.jpg";
 const Profile = () => {
   return (
     <>
-      <div className="Top-Alain">
+      <div style={{}} className="Top-Alain">
       <span className="Header-Body">Welcome Sir</span>
       </div>
       <div className="Total">
@@ -29,7 +29,7 @@ const Profile = () => {
             my work and to enhance the growth of the organization by imporving
             and applying my competency at work
           </div>
-          <div className="Image">
+          <div style={{justifySelf:"flex-end"}}className="Image1">
             <img className="Image" src={MyPhoto} alt="My Photo" />
           </div>
         </div>
@@ -63,8 +63,10 @@ const Profile = () => {
         </div>
         <div className="Education1">
           <div>
+
             <div className="Skills">
-              Skills
+            <span style={{display:"flex"}}> Skills</span>
+
               <ul>
               <div className="SkillSet">
                 <li>
